@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>yuzleven</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css" />
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <header class="cabecalho">
+        <div class="cabecalho__conteudo">
+            <a class="cabecalho__link" href="index.html"><img class="cabecalho__img" src="./img/Usuário 1.svg">Home</a>
+            <input type="checkbox" id="menu" class="cabecalho__menu">
+            <label for="menu">
+                <figure>
+                    <img src="./img/Menu 1.svg">
+                    <figcaption class="descricao__menu">Menu</figcaption>
+                </figure>
+            </label>
+            <ul class="lista__menu">
+                <li class="lista__menu__titulo"><a href="favorites.html">Favoritos</a></li>
+                <li class="lista__menu__item"><a href="musica.html" class="lista__menu__link">Música/artistas</a></li>
+                <li class="lista__menu__item"><a href="cinema.html" class="lista__menu__link">Filme/Série</a></li>
+                <li class="lista__menu__item"><a href="instrumentos.html" class="lista__menu__link">Instrumento</a></li>
+                <li class="lista__menu__item"><a href="hobby.html" class="lista__menu__link">Hobby</a></li>
+            </ul>
+
+        </div>
+        <section class="carrossel">
+            <h2 class="carrossel__titulo">deixei alguns spoilerzinhos dos meus gostos hehe</h2>
+                        <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+
+                <div class="swiper-wrapper">
+                <!-- Slides -->
+                <div class="swiper-slide slide__next">
+                    <p class="slide__descricao">gravity falls</p>
+                    <img src="./img/gravity_falls 1.png">
+                    <a href="https://pin.it/7vDYNQn">fonte da imagem original</a>
+                </div>
+                <div class="swiper-slide slide__prev">
+                    <p class="slide__descricao">the hunger games</p>
+                    <img src="./img/hunger_games 1.png">
+                    <a href="https://pin.it/73tblcK">fonte da imagem original</a>
+                </div>
+                <div class="swiper-slide slide__next">
+                    <p class="slide__descricao">coraline</p>
+                    <img src="./img/coraline 1.png">
+                    <a href="https://pin.it/5gTGjJ5">fonte da imagem original</a>
+                </div>
+                <div class="swiper-slide slide__prev">
+                    <p class="slide__descricao">shadowhunters</p>
+                    <img src="./img/shadowhunters 1.png">
+                    <a href="https://pin.it/3nInxmS">fonte da foto original</a>
+                </div>
+                <div class="swiper-slide slide__next">
+                    <p class="slide__descricao">art/digital art</p>
+                    <img src="./img/tamaytka 1 (2).png">
+                    <a href="https://www.pinterest.jp/search/my_pins/?q=tamaytka&rs=typed">fonte das imagens originais</a>
+                </div>
+                <div class="swiper-slide slide__prev">
+                    <p class="slide__descricao">sabrina carpenter</p>
+                    <img src="./img/sabrina_carpenter 1.png">
+                    <a href="https://pin.it/2CnuIJk">fonte da imagem original</a>
+                </div>
+                <div class="swiper-slide slide__next">
+                    <p class="slide__descricao">alice in wonderland</p>
+                    <img src="./img/alice 1.png">
+                    <a href="https://pin.it/2hKwPKZ">fonte da imagem original</a>
+                </div>
+                <div class="swiper-slide slide__prev">
+                    <p class="slide__descricao">the perks of being a wallflower</p>
+                    <img src="./img/the perks of being a wallflower 1.png">
+                    <a href="c:\Users\helio\Downloads\the perks of being a wallflower 1.png">fonte da imagem original</a>
+                </div>
+                <div class="swiper-slide slide__next">
+                    <p class="slide__descricao">instrumentos musicais</p>
+                    <img src="./img/guitarra 1.png">
+                    <a href="https://pin.it/4hX5KUT">fonte da imagem original</a>
+                </div>
+                ...
+                </div>
+            
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+            
+            </div>
+            <p class="favoritos__conteudo">Se você se identificou, clica no botão do menu para explorar mais sobre os meus favoritos<3</p>
+        </section>
+    </header>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
+    <script>
+        const swiper = new Swiper('.swiper', {
+            spaceBetween: 30,
+            slidesPerView: 2,
+            centeredSlides: true,
+            pagination: {
+                el: '.swiper-pagination',
+                type: 'bullets',
+                },
+        });
+    </script>
+</body>
+</html>

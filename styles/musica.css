@@ -1,0 +1,374 @@
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+:root {
+    --cor-fundo: #31304D;
+    --cor-primario: #161A30;
+    --cor-secundario: #B6BBC4;
+    --fonte-size: 1rem;
+    --font-family: 'Press Start 2P';
+}
+
+.lista__menu__titulo a {
+    text-decoration: none;
+}
+
+/* 
+.espaco {
+    height: 100vh;
+    align-items: center;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+}
+
+.sab__img {
+    width: 17rem;
+    border-radius: 1rem;
+    animation: fadeIn 1s ease-in;
+    border: 2px solid var(--cor-secundario);
+}
+
+.sab__img2 {
+    width: 15rem;
+    border-radius: 1rem;
+    animation: fadeIn 1s ease-in;
+    border: 2px solid var(--cor-secundario);
+}
+
+.sab__img3 {
+    width: 12rem;
+    border-radius: 1rem;
+    animation: fadeIn 1s ease-in;
+    border: 2px solid var(--cor-secundario);
+}
+
+.div__sab__info {
+    text-align: center;
+    align-items: center;
+    padding: 5rem;
+}
+
+.sab__titulo {
+    font-size: 1.5rem;
+    font-family: var(--font-family);
+    color: var(--cor-secundario);
+    margin-bottom: 2rem;
+    animation: fadeIn 1s ease-in;
+}
+
+.sab__texto {
+    font-size: 1rem;
+    font-family: var(--font-family);
+    color: var(--cor-primario);
+    line-height: 1.5;
+}
+
+.sab__texto2 {
+    font-size: 1rem;
+    font-family: var(--font-family);
+    color: var(--cor-primario);
+    line-height: 1.5;
+    margin-top: 2rem; 
+}
+
+.sab__titulo2 {
+    font-size: 1rem;
+    font-family: var(--font-family);
+    color: var(--cor-secundario);
+    margin-top: 2rem;
+    animation: fadeIn 1s ease-in;
+} */
+
+.espaco {
+    height: 100vh;
+}
+
+.sab__info {
+    display: flex;
+    justify-content: space-between;
+    gap: 3rem;
+    text-align: center;
+    align-items: center;
+    line-height: 1.5;
+    font-family: var(--font-family);
+    margin: 8rem 0 0 5rem;
+}
+
+
+.sab__img {
+    width: 18rem;
+    border-radius: 1rem;
+    border: 2px solid var(--cor-secundario);
+    animation: fadeIn 1s ease-in;
+    position: relative;
+}
+
+.sab__img2 {
+    width: 15rem;
+    border-radius: 1rem;
+    border: 2px solid var(--cor-secundario);
+    position: absolute;
+    bottom: 8rem;
+    left: 12rem;
+    animation: fadeIn 1s ease-in;
+}
+
+.sab__img3 {
+    width: 12rem;
+    border-radius: 1rem;
+    border: 2px solid var(--cor-secundario);
+    position: absolute;
+    bottom: 1rem;
+    left: 4rem;
+    animation: fadeIn 1s ease-in;
+
+}
+
+.sab__container {
+    margin-top: 1rem;
+}
+
+.sab__titulo {
+    font-size: 1.5rem;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    margin-bottom: 2rem;
+    color: var(--cor-secundario);
+    animation: fadeIn 1s ease-in;
+}
+
+.sab__texto {
+    font-size: 1rem;
+    width: 70%;
+    color: var(--cor-primario);
+}
+
+.sab__texto2 {
+    font-size: 1rem;
+    width: 70%;
+    color: var(--cor-primario);
+    margin-top: 2rem;
+}
+
+.sab__texto:hover {
+    color: var(--cor-secundario);
+}
+
+.sab__texto2:hover {
+    color: var(--cor-secundario);
+}
+
+.sab__titulo2 {
+    font-size: 1rem;
+    align-items: center;
+    text-align: center;
+    width: 70%;
+    margin-top: 5rem;
+    color: var(--cor-secundario);
+    animation: fadeIn 1s ease-in;
+}
+
+.sab__info__oculto {
+    position: absolute;
+    left: 28%;
+    display: flex;
+    justify-content: center;
+}
+
+.sab__oculto {
+    font-family: var(--font-family);
+    color: var(--cor-primario);
+    margin-top: 5rem;
+    line-height: 2;
+    text-transform: uppercase;
+}
+
+.oculto__titulo {
+    font-family: var(--font-family);
+    font-size: 1rem;
+    margin: 1rem 0 1rem 0;
+    margin-left: 3rem;
+    color: var(--cor-secundario);
+
+}
+
+.oculto__img {
+    width: 10rem;
+    border-radius: 1rem;
+    margin-left: 2.5rem;
+}
+
+.oculto__texto {
+    font-family: var(--font-family);
+    font-size: 0.5rem;
+    margin: 1rem 0 2rem 0;
+    color: var(--cor-secundario);
+    line-height: 2;
+    width: 70%;
+    text-align: center;
+}
+
+.sab__info__oculto2 {
+    position: absolute;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+.sab__oculto2 {
+    font-family: var(--font-family);
+    color: var(--cor-primario);
+    line-height: 2;
+    text-transform: uppercase;
+}
+
+.oculto__lista {
+    font-family: var(--font-family);
+    line-height: 1.75;
+    font-size: 0.75rem;
+    color: var(--cor-secundario);
+    margin: 1rem 0 2rem 3rem;
+}
+
+.container__halsey {
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    line-height: 1.5;
+    font-family: var(--font-family);
+    gap: 3rem;
+    margin-top: 30rem;
+}
+
+
+.halsey__nome {
+    font-size: 1.5rem;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--cor-secundario);
+    animation: fadeIn 1s ease-in;
+    margin-left: 5rem;
+}
+
+.halsey__info {
+    margin-bottom: 2rem;
+    line-height: 1.5;
+    font-size: 1rem;
+    margin-left: 5rem;
+    color: var(--cor-primario);
+}
+
+.halsey__info2 {
+    margin: 5rem 0 3rem 5rem;
+    font-size: 1rem;
+    color: var(--cor-secundario);
+}
+
+.halsey__info:hover {
+    color: var(--cor-secundario);
+}
+
+.halsey__img {
+    width: 15rem;
+    border-radius: 1rem;
+    border: 2px solid var(--cor-secundario);
+    animation: fadeIn 1s ease-in;
+    margin-right: 2rem;
+    position: relative;
+}
+
+.halsey__img2 {
+    width: 17rem;
+    border-radius: 1rem;
+    border: 2px solid var(--cor-secundario);
+    animation: fadeIn 1s ease-in;
+    margin-right: 20rem;
+    position: absolute;
+    top: 90rem;
+    left: 95rem;
+}
+
+.halsey__img3 {
+    width: 14rem;
+    border-radius: 1rem;
+    border: 2px solid var(--cor-secundario);
+    animation: fadeIn 1s ease-in;
+    position: absolute;
+    top: 106rem;
+    right: 2rem;
+}
+
+.container__oculto__halsey {
+    display: flex;
+    position: absolute;
+    gap: 5rem;
+    top: 102rem;
+    right: 40rem;
+}
+
+.oculto__album {
+    font-family: var(--font-family);
+    color: var(--cor-secundario);
+    font-size: 1rem;
+    margin: 1rem 0;
+}
+
+.halsey__oculto {
+    color: var(--cor-primario);
+}
+
+.oculto__img__halsey {
+    width: 10rem;
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    margin: 0 0 1rem 2rem;
+}
+
+.halsey__info__oculto2 {
+    font-size: 0.75rem;
+    text-align: left;
+}
+
+.halsey__oculto2 {
+    color: var(--cor-primario);
+    font-size: 1rem;
+}
+
+.oculto__lista__halsey {
+    color: var(--cor-secundario);
+    line-height: 1.5;
+    position: absolute;
+    left: 25rem;
+    top: 2.5rem;
+}
+
+.item__lista__halsey {
+    margin-bottom: 0.5rem;
+}
+
+.ancora {
+    margin: 18rem 0.5rem 0 0;
+}
+
+.ancora__musica {
+    background-color: var(--cor-primario);
+    color: var(--cor-secundario);
+    padding: 1rem;
+    border-radius: 3rem;
+}
+
+.ancora__musica:hover {
+    background-color: var(--cor-secundario);
+    color: var(--cor-primario);
+}
